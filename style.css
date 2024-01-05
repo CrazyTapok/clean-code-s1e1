@@ -57,7 +57,6 @@
 .item__btn {
   background: none;
   border: 0px;
-  color: #888;
   font-size: 15px;
   width: 60px;
   font-family: Lato, sans-serif;
@@ -66,6 +65,13 @@
 
 .item__btn:hover {
   color: #3a3a3a;
+}
+
+.item__btn,
+.item__text,
+.item-add-text,
+#complete-items .item__label {
+  color: #888;
 }
 
 /* Heading */
@@ -90,7 +96,6 @@
   background: #fff;
   border-radius: 6px;
   font-family: Lato, sans-serif;
-  color: #888;
 }
 
 .item-add-text:focus,
@@ -127,10 +132,10 @@
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
-  width: 226px;
 }
 
-.todo__item > .item__text {
+.todo__item > .item__text,
+.todo__item > .item__label {
   width: 226px;
 }
 
@@ -147,7 +152,6 @@
 /* Completed */
 #complete-items .item__label {
   text-decoration: line-through;
-  color: #888;
 }
 
 /* Edit Task */
