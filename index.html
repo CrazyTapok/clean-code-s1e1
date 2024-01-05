@@ -14,17 +14,17 @@
       charset="utf-8">
   </head>
   <body class="body">
-    <div class="header">
+    <header class="header">
       <img class="header__img" src="./eisenhower-matrix.jpg">
       <a 
         class="header__info" 
         href="https://goal-life.com/page/method/matrix-eisenhower">
         Want more details?
       </a>
-    </div>
-    <div class="main-container">
-      <div class="todo-add-section">
-        <h3 class="todo__title todo-add-section__title">Add Item</h3>
+    </header>
+    <main class="main-container">
+      <section class="todo-add-section">
+        <h1 class="todo__title todo-add-section__title">Add Item</h1>
         <div class="todo-add-section__wrapper">
           <input 
             id="new-item"
@@ -32,9 +32,9 @@
             type="text">
           <button class="item__btn">Add</button>
         </div>
-      </div>
-      <div class="todo-main-section">
-        <h3 class="todo__title todo-main-section__title">Todo</h3>
+      </section>
+      <section class="todo-main-section">
+        <h2 class="todo__title todo-main-section__title">Todo</h2>
         <ul id="incomplete-items" class="todo__list">
           <li class="todo__item">
             <input class="item__checkbox" type="checkbox">
@@ -58,9 +58,9 @@
             </button>
           </li>
         </ul>
-      </div>
-      <div class="todo-complete-section">
-        <h3 class="todo__title todo-complete-section__title">Completed</h3>
+      </section>
+      <section class="todo-complete-section">
+        <h2 class="todo__title todo-complete-section__title">Completed</h2>
         <ul id="complete-items" class="todo__list">
           <li class="todo__item">
             <input class="item__checkbox" type="checkbox" checked>
@@ -72,8 +72,8 @@
             </button>
           </li>
         </ul>
-      </div>
-    </div>
+      </section>
+    </main>
     <script src="app.js"></script>
   </body>
 </html>
